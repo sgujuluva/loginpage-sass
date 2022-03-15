@@ -2,7 +2,13 @@ body{
   @include  reset-list;
   @include body-size;
 }
-
+/* heading */
+.heading{
+  h1{
+  color:clr(neutral,dark);
+ text-align: center;
+}
+}
 /* login-page default */
 .login-page{
     width:100%;

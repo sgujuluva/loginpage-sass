@@ -1,3 +1,18 @@
-$facebook-color:#1a73e8;
-$twitter-color:#1558d6;;
-$google-color:#852d23;
+$colors:(
+    google:(
+        base:$google-color,
+        light:lighten($google-color,$lighten),
+        dark:darken($google-color,$lighten),
+    ),
+    neutral:(
+        base:#5B59F5,
+        light: #7EB6F5,
+        dark: #1412F5,
+    ),
+);
+
+/* function */
+@function clr($base, $shade: base) {
+    $color: map-get(map-get($colors, $base), $shade);
+    @return $color;
+  }
