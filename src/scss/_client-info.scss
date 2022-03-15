@@ -1,6 +1,53 @@
 /* form section */
 .client-info{
-    width:30vw;
+     width:30vw;
     height:50vh;
-   
-}
+   form{
+  
+       legend{
+           text-align: center;
+           font-size: 1.5rem;
+           font-weight: 800;
+       }/* legend ends here */
+       /* client form */
+       .client-form{
+           width:100%;
+           height:45vh;
+           @include flex-item(space-evenly,column,center); 
+      
+       /* username */
+       .username{
+           i{
+               margin-right:5px;
+               font-size: 1.2rem;
+           }
+          input{
+          width:20vw;
+          height:5vh;
+        }
+
+       }
+       /* password */
+       .password{
+        i{
+            margin-right:5px;
+            font-size: 1.2rem;
+        }
+       input{
+       width:20vw;
+       height:5vh;
+     }
+       } /* password ends here */
+       .checkbox{
+          width:100%;
+           height:10vh;
+        @include flex-item(space-evenly,row,center);   
+        button{
+           background-color: blue;
+           color:white;
+           height:50%;
+        }
+       }
+    }/* client-form ends here */
+   }/* form ends here */
+}/* client-info ends here */
