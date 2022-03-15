@@ -1,0 +1,18 @@
+/* reset-list */
+@mixin reset-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  /* default width and height to body */
+  @mixin body-size{
+      width:100vw;
+      height:100vh;
+  }
+/* flex */
+@mixin flex-item($justify, $direction, $align){
+    display:flex;
+    justify-content: $justify;
+    flex-direction: $direction;
+    align-items:$align ;
+}
