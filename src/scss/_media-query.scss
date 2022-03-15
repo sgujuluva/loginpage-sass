@@ -1,0 +1,55 @@
+/* mobile media query */
+@media screen and (max-width:450px){
+.socialmedia-icons{
+    button{
+    width:100%;
+       i{
+           font-size: 0.8rem;
+       }
+       a{
+        font-size: 0.8rem;  
+       }
+    }
+}/* social media icons ends here */
+/* form */
+.client-info{
+    form{
+        legend{
+            font-size:1rem;
+        }
+    .client-form{
+          /* username */
+       .username{
+        i{
+            margin-right:1px;
+            font-size: 1rem;
+        }
+       input{
+       width:20vw;
+       height:3vh;
+     }
+
+    }
+    /* password */
+    .password{
+     i{
+         margin-right:1px;
+         font-size: 1rem;
+     }
+    input{
+    width:20vw;
+    height:3vh;
+    }
+    } /* password ends here */
+    /* checkbox */
+    .checkbox{
+       font-size: 0.8rem;
+      button{
+       height:40%;
+       margin-left:10px;
+      }
+     }
+    }/* client-form end */
+    }/* form end */
+} /* client-info end */
+}/* media screen end */
