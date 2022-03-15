@@ -1,7 +1,17 @@
 /* social media section */
 .socialmedia-icons{
-    border:2px solid red;
     width:30vw;
     height:50vh;
     @include flex-item(space-evenly,column,center);
+    button:nth-child(1){/* used variable */
+        background-color:$facebook-color ;
+    }
+    button:nth-child(2){
+        /* used maps to get the google color lighten */
+        background-color: clr(google,light);
+    }
+    button:nth-child(3){/* used variable */
+        background-color:$twitter-color ;
+    }
+   
 }
