@@ -1,4 +1,21 @@
 /* divider section */
 .divider{
-     border:2px solid blue;
+    div:nth-child(1){
+        width: 2px; 
+        background-color: black; 
+        height:51vh;
+        position:absolute;
+        top:11%;
+       right:49%;
+       z-index:-1;
+    }
+    div:nth-child(2){
+        border:2px solid black;
+        width:2rem;
+        height:2rem;
+        border-radius:50%;
+        background-color: white;
+       @include flex-item(center,row,center);
+    }
+    
 }
