@@ -9,11 +9,41 @@
     <title>Login Page - using SASS</title>
 </head>
 <body>
+    <!-- social media icons - left side -->
     <section class="socialmedia-icons">
        <button><a href="#"><i class="fab fa-facebook"></i> Facebook</a></button>
        <button><a href="#"><i class="fab fa-google-plus-g"></i>Google</a></button>
        <button><a href="#"><i class="fab fa-twitter"></i> Twitter</a></button>
     </section>
+<!-- divider --- middle section -->
+<section class="divider">
+    <div>OR</div>
+</section>
+<!-- form section -->
+<section class="client-info">
+    <form action="">
+        <legend>Sign in with</legend>
+        <!-- username -->
+        <div class="username" >
+            <i class="fas fa-user"></i>
+            <input type="email" placeholder="username or email" id="1" required>
+        </div>
+        <!-- password -->
+        <div class="password" >
+            <i class="fas fa-lock"></i>
+            <input type="password" placeholder ="password" id="2" required> 
+        </div>
+        <!-- checkbox -->
+        <div class="checkbox">
+            <input type="checkbox" id="2">
+            <span>Remember Me</span>
+        </div>
+        <!-- login button -->
+        <div class="login-button">
+            <button>LOGIN</button>
+        </div>
+    </form>
+</section>
     
 </body>
 </html>
