@@ -1,7 +1,7 @@
 /* social media section */
 .socialmedia-icons{
     border:2px solid red;
-    width:45vw;
+    width:30vw;
     height:50vh;
-    
+    @include flex-item(space-evenly,column,center);
 }

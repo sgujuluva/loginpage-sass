@@ -1,6 +1,15 @@
 /* buttons */
 button{
-    width:30%;
+    width:45%;
     height:13%;
     border:none;
+    @include flex-item(space-around,row,center);
+    a{
+        margin-right:16px;
+        font-size: 1.5rem;
+    }
+    i{
+        margin-right:25px;
+        font-size: 1.5rem;
+    }
 }
